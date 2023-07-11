@@ -5,9 +5,9 @@ import 'aos/dist/aos.css'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  useEffect(()=>{
-    Aos.init({duration:1000})
-  },[])
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <>
       <div data-aos='fade-down' className="fixed top-0 left-0 right-0 bg-[#282C33]">
@@ -28,22 +28,22 @@ const Navbar = () => {
             >
               <NavLink to="/">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>home
+                  <span className="text-[#C778DD] font-medium">#</span>Pagina-prinncipal
                 </li>
               </NavLink>
               <NavLink to="/projects">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>work
+                  <span className="text-[#C778DD] font-medium">#</span>Trabalhos
                 </li>
               </NavLink>
               <NavLink to="/about">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>about-me
+                  <span className="text-[#C778DD] font-medium">#</span>Sobre-mim
                 </li>
               </NavLink>
               <NavLink to="/contact">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>contacts
+                  <span className="text-[#C778DD] font-medium">#</span>Contactos
                 </li>
               </NavLink>
               <div
