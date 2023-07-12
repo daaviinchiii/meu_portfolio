@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="img">
               <img src={require("./imgs/Logo.png")} alt="" />
             </div>
-            Elias
+            Daaviinchiii
           </div>
           <div className="right flex items-center">
             <div
@@ -29,11 +29,6 @@ const Navbar = () => {
               <NavLink to="/">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                   <span className="text-[#C778DD] font-medium">#</span>Pagina-prinncipal
-                </li>
-              </NavLink>
-              <NavLink to="/projects">
-                <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
-                  <span className="text-[#C778DD] font-medium">#</span>Trabalhos
                 </li>
               </NavLink>
               <NavLink to="/about">
@@ -56,9 +51,9 @@ const Navbar = () => {
             {/* CLOSE&OPEN btns */}
             <div onClick={() => setToggle(true)} className="">
               <div className="open block md:hidden w-8">
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
-                <div className="w-full h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
+                <div className="w-100 h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
+                <div className="w-100 h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
+                <div className="w-100 h-[1px] my-2 rounded-r-3xl bg-[#D9D9D9]"></div>
               </div>
             </div>
           </div>
@@ -68,3 +63,9 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+//backup para adicionar o trabalhos é so adicionar isto
+//<NavLink to="/projects">
+//<li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
+//  <span className="text-[#C778DD] font-medium">#</span>Trabalhos
+//</li>
+//              </NavLink >

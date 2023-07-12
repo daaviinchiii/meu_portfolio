@@ -6,31 +6,25 @@ const Fun_facts = () => {
             {/* title */}
             <div className=" mb-12 text-[32px] font-medium text-white">
                 <span className='text-[#C778DD]'>#</span>
-                my-fun-facts
+                factos sobre mim
             </div>
             <div className="flex justify-center gap-y-10 md:justify-between gap-4 items-center flex-wrap">
                 {/* left */}
                 <div className=" flex justify-start gap-4 w-full md:w-[48%] flex-wrap">
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I like winter more than summer
+                        Pratico ginásio
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I often bike with my friends
+                        Faço streams na twitch
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I was in Egypt, Poland and Turkey
+                        Prefiro frio do que calor
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I’m still studing in school
+                        os meus filmes favoritos são de terror
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I’m still studing in school
-                    </div>
-                    <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        My favorite movie is The Green Mile
-                    </div>
-                    <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        I don’t have any siblings
+                        Não gosto de futebol
                     </div>
                 </div>
                 {/* right */}

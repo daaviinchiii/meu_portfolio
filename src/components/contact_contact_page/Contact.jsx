@@ -6,43 +6,40 @@ const Contact = () => {
             {/* title */}
             <div className=" text-white font-semibold text-[32px] mt-12">
                 <span className=' text-[#C778DD]'>/</span>
-                contacts</div>
+                contactos</div>
             {/* h2 title */}
-            <div className=" text-white mt-[14px] mb-[46px]">Who am i?</div>
+            <div className=" text-white mt-[14px] mb-[46px]"></div>
             {/* flex main */}
             <div className="flex justify-between flex-wrap gap-10">
                 {/* left side */}
                 <div className="  md:w-3/5 w-full">
                     {/* some text */}
                     <div className=" text-[#ABB2BF] font-medium">
-                        I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me
+                        Estou interessado em oportunidades de trabalho de curto prazo. No entanto, se tiver outra ideia, não hesite em contactar-me
                     </div>
                 </div>
                 {/* right side */}
                 <div className=" flex gap-3">
                     {/* boxes/flex */}
                     {/* 1 */}
-                    <div className=" p-4 border border-[#ABB2BF]">
-                        <h2 className=' text-white font-medium pb-2'>Support me here</h2>
-                        <span className='text-[#ABB2BF]'>4149500120690030</span>
-                    </div>
+
                     {/* 2 */}
                     <div className=" p-4 border border-[#ABB2BF]">
-                        <h2 className=' text-white font-medium pb-4 '>Message me here</h2>
+                        <h2 className=' text-white font-medium pb-4 '>contactos</h2>
                         <div className=" text-[#ABB2BF]">
                             {/* contacts */}
                             <div className=" flex gap-1 items-center">
                                 {/* img */}
                                 <img src={require("./imgs/Discord.png")} alt="" />
                                 {/* text */}
-                                <span>Elias#1234</span>
+                                <span>daaviinchiii</span>
                             </div>
                             {/* contacts */}
                             <div className=" flex gap-1 items-center">
                                 {/* img */}
                                 <img src={require("./imgs/Email.png")} alt="" />
                                 {/* text */}
-                                <span>elias@elias.me</span>
+                                <span>daaviinchiii@gmai.com</span>
                             </div>
                         </div>
                     </div>
@@ -52,19 +49,19 @@ const Contact = () => {
             {/* all media */}
             <div className=" mt-6 mb-5x">
                 {/* title */}
-                <div className=" text-[32px] font-medium text-white"><span className='text-[#C778DD]'>#</span>all-media</div>
+                <div className=" text-[32px] font-medium text-white"><span className='text-[#C778DD]'>#</span>Redes sociais</div>
                 {/* media */}
                 <div className=" flex gap-6">
                     <a href="#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
-                            <img src={require('./imgs/Twitter.png')} alt="" />
-                            <span>@elias</span>
+                            <img src={require('./imgs/insta.png')} alt="" />
+                            <span>@david_23_c</span>
                         </div>
                     </a>
                     <a href="#">
                         <div className=" text-[#ABB2BF] flex items-center gap-1">
                             <img src={require('./imgs/Twitter.png')} alt="" />
-                            <span>@elias</span>
+                            <span>@david_23_c</span>
                         </div>
                     </a>
                 </div>
@@ -74,6 +71,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
-// We completed our project :)

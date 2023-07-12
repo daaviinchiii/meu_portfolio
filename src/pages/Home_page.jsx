@@ -3,17 +3,27 @@ import Skills from "../components/skills_section/Skills";
 import AboutSec from "../components/about_section/About";
 import Contact from "../components/contact_section/Contact";
 import About from "../components/first_section_about/About";
+import Fun_facts from "../components/fun_facts/fun_facts";
 const Home_page = () => {
-    //  right now in the last videos we complete this page :))
-    // dont forget to subscribe
   return (
     <>
       <About />
-      <Projects />
       <Skills />
       <AboutSec />
+      <Fun_facts />
       <Contact />
     </>
   );
 };
 export default Home_page;
+// aqui aduciona o < Projects /> para aparcer na page inicial
+// bacup do return
+//return (
+//  <>
+//     <About />
+//     < Projects />
+//     <Skills />
+//     <AboutSec />
+//     <Contact />
+//   </>
+//);

@@ -8,10 +8,7 @@ const About = () => {
                 <div className=" text-white w-2/3 font-semibold text-[32px]">
                     <div className="">
                         <span className="text-[#C778DD]">/</span>
-                        about-me
-                    </div>
-                    <div className=" text-white text-base font-normal mt-[14px]">
-                        Who am i?
+                        Sobre mim
                     </div>
                 </div>
             </div>
@@ -20,23 +17,28 @@ const About = () => {
                 <div className="md:w-[48%] w-full">
                     {/* disc */}
                     <p className="text-[#ABB2BF] ">
-                        Hello, i’m Elias!
+                        Ola eu chamo-me David
                         <br />
                         <br />
-                        I’m a self-taught front-end developer based in Kyiv, Ukraine. I
-                        can develop responsive websites from scratch and raise them into
-                        modern user-friendly web experiences.
+                        Sou um estudante interessado pela área de programação. Neste momento, estou à
+                        procura de oportunidades para aumentar o meu conhecimento e adquirir
+                        experiência na área de trabalho. Durante o meu percurso no curso de programador
+                        de informática, adquiri conhecimentos em: Spring Boot, JavaScript, MySQL,
+                        Flutter, PHP, HTML e CSS. Também obtive conhecimentos na área de gestão de
+                        sistemas: Windows e Windows Server.
                         <br />
                         <br />
-                        Transforming my creativity and knowledge into a websites has been
-                        my passion for over a year. I have been helping various clients to
-                        establish their presence online. I always strive to learn about
-                        the newest technologies and frameworks.
+                        Sou uma pessoa motivada, empenhada, criativa e determinada a enfrentar
+                        desafios. Tenho facilidade em aprender novos conceitos e estou aberto a receber feedback construtivo para melhorar o meu desempenho. Valorizo o trabalho em
+                        equipa e tenho boas capacidades de relacionamento interpessoal.
+                        Estou determinado a trabalhar arduamente para alcançar os meus objetivos
+                        académicos e profissionais. Agradeço a oportunidade de partilhar um pouco sobre
+                        mim
                     </p>
                 </div>
                 {/* right */}
                 <div className=" mx-auto">
-                    <img className="mx-auto" src={require("./imgs/man.png")} alt="" />
+                    <img className="mx-auto" src={require("./imgs/david.png")} alt="" />
                 </div>
             </div>
         </div>

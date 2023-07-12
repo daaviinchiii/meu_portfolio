@@ -3,36 +3,26 @@ import React from 'react'
 const Skills = () => {
     const skills = [
         {
-            title: "Languages",
-            languages: ["TypeScript", "Lua", "Python", "JavaScript"],
+            title: "linguagens",
+            languages: ["html", "css", "php", "JavaScript", "Spring Boot", "Flutter"],
         },
-        { title: "Databases", languages: ["SQLite", "PostgreSQL", "Mongo"] },
+        { title: "Bases de dados", languages: ["Mysql"] },
         {
-            title: "Tools",
+            title: "ferramentas",
             languages: [
                 "VSCode",
-                "Neovim",
                 "Linux",
-                "Figma",
-                "XFCE",
-                "Arch",
+                "Whindows",
+                "sweetalert2h",
                 "Git",
                 "Font Awesome",
             ],
         },
         {
-            title: "Other",
-            languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
-        },
-        {
             title: "Frameworks",
             languages: [
                 "React",
-                "Vue",
-                "Disnake",
                 "Discord.js",
-                "Flask",
-                "Express.js",
             ],
         },
     ];
@@ -41,7 +31,7 @@ const Skills = () => {
             {/* title */}
             <div className=" mb-12 text-[32px] font-medium text-white">
                 <span className='text-[#C778DD]'>#</span>
-                skills
+                Competencias
             </div>
             {/* cards */}
             <div className=" flex justify-around gap-4 flex-wrap">

@@ -1,36 +1,26 @@
 const Skills = () => {
   const skills = [
     {
-      title: "Languages",
-      languages: ["TypeScript", "Lua", "Python", "JavaScript"],
+      title: "linguagens",
+      languages: ["html", "css", "php", "JavaScript", "Spring Boot", "Flutter"],
     },
-    { title: "Databases", languages: ["SQLite", "PostgreSQL", "Mongo"] },
+    { title: "Bases de dados", languages: ["Mysql"] },
     {
-      title: "Tools",
+      title: "ferramentas",
       languages: [
         "VSCode",
-        "Neovim",
         "Linux",
-        "Figma",
-        "XFCE",
-        "Arch",
+        "Whindows",
+        "sweetalert2h",
         "Git",
         "Font Awesome",
       ],
     },
     {
-      title: "Other",
-      languages: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
-    },
-    {
       title: "Frameworks",
       languages: [
         "React",
-        "Vue",
-        "Disnake",
         "Discord.js",
-        "Flask",
-        "Express.js",
       ],
     },
   ];
@@ -38,10 +28,10 @@ const Skills = () => {
     <>
       <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
         {/* top */}
-        <div data-aos = "fade-left" className=" mb-10">
+        <div data-aos="fade-left" className=" mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">
-              <span className="text-[#C778DD]">#</span>skills
+              <span className="text-[#C778DD]">#</span>Competencias
             </div>
             <div className="line w-1/3 h-px bg-[#C778DD]"></div>
           </div>
@@ -49,11 +39,11 @@ const Skills = () => {
         {/* bottom */}
         <div className=" flex flex-wrap gap-10 justify-between items-center text-white">
           {/* left */}
-          <div  data-aos = "fade-right" className="mx-auto">
+          <div data-aos="fade-right" className="mx-auto">
             <img className=" w-full mx-auto" src={require("./imgs/shapes.png")} alt="" />
           </div>
           {/* right & mapping */}
-          <div  data-aos = "fade-left" className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
+          <div data-aos="fade-left" className=" mx-auto flex justify-around md:justify-end flex-wrap w-10/12 md:w-1/2 gap-4">
             {skills.map(({ title, languages }) => {
               return (
                 <>
