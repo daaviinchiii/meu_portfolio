@@ -30,10 +30,10 @@ const Footer = () => {
             {/* media */}
             <div className="flex items-center gap-2">
               <a href="#">
-                <img src={require("./imgs/Discord.png")} alt="" />
+                <img />
               </a>
               <a href="">
-                <img src={require("./imgs/Figma.png")} alt="" />
+                <img />
               </a>
               <a href="https://github.com/daaviinchiii">
                 <img src={require("./imgs/Github.png")} alt="" />
