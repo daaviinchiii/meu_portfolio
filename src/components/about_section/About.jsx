@@ -31,12 +31,14 @@ const AboutSec = () => {
             </p>
             {/* button */}
             <div className="mt-7">
-              <a
+
+              <NavLink>
                 to="/about"
                 className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white "
-              >
-                <button>Saiba Mais -{">"}</button>
-              </a>
+              </NavLink>
+
+              <button>Saiba Mais -{">"}</button>
+
             </div>
           </div>
           {/* right */}
