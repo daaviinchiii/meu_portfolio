@@ -26,7 +26,7 @@ const Navbar = () => {
                 : `right-0 top-0 bottom-0`
                 } bg-[#282C33] md:static`}
             >
-              <NavLink to="/">
+              <NavLink to="/meu_portfolio/">
                 <li className="text-[#ABB2BF] text-[32px] my-4 md:my-auto md:text-base list-none mx-4">
                   <span className="text-[#C778DD] font-medium">#</span>Pagina-prinncipal
                 </li>
