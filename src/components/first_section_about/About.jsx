@@ -6,11 +6,11 @@ const About = () => {
       <div className="px-5 max-w-[1560px] mx-auto min-h-screen pt-20 flex items-center justify-between flex-wrap">
         <div data-aos="fade-right" className=" w-10/12 sm:w-8/12 mx-auto">
           <h1 className="font-semibold text-[32px] text-white mb-3">
-            david é um <span className="text-[#C778DD]">back-end</span> e{" "}
-            <span className="text-[#C778DD]">front-end desenvolvedor</span>
+            O david é um <span className="text-[#C778DD]"></span> {" "}
+            <span className="text-[#C778DD]">fullstack developer</span>
           </h1>
           <p className="text-[#ABB2BF] my-6">
-            Organiza hoje para não ter de andar a procura amanha          </p>
+            Organiza hoje para não ter de andar à procura amanhã.         </p>
         </div>
         <div data-aos="fade-left" data-aos-delay="400" className="mx-auto">
           <div className="">

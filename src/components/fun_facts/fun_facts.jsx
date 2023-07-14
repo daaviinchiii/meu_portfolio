@@ -12,19 +12,20 @@ const Fun_facts = () => {
                 {/* left */}
                 <div className=" flex justify-start gap-4 w-full md:w-[48%] flex-wrap">
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        Pratico ginásio
+                        Pratico ginásio.
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        Faço streams na twitch
+
+                        Faço streams na Twitch.
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        Prefiro frio do que calor
+                        Prefiro o frio ao calor.
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        os meus filmes favoritos são de terror
+                        Os meus filmes favoritos são de terror.
                     </div>
                     <div className="fact border border-[#ABB2BF] p-2 text-[#ABB2BF] text-base font-normal">
-                        Não gosto de futebol
+                        Não gosto de futebol.
                     </div>
                 </div>
                 {/* right */}

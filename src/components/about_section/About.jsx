@@ -18,15 +18,10 @@ const AboutSec = () => {
             </div>
             {/* disc */}
             <p className="text-[#ABB2BF] ">
-              Ola eu chamo-me David
+              Olá, eu chamo-me David.
               <br />
               <br />
-              Sou um estudante interessado pela área de programação. Neste momento, estou à
-              procura de oportunidades para aumentar o meu conhecimento e adquirir
-              experiência na área de trabalho. Durante o meu percurso no curso de programador
-              de informática, adquiri conhecimentos em: Spring Boot, JavaScript, MySQL,
-              Flutter, PHP, HTML e CSS. Também obtive conhecimentos na área de gestão de
-              sistemas: Windows e Windows Server.
+              Sou um estudante interessado pela área de programação. Neste momento, estou à procura de oportunidades para aumentar o meu conhecimento e adquirir experiência na área de trabalho. Durante o meu percurso no curso de programador de informática, adquiri conhecimentos em Spring Boot, JavaScript, MySQL, Flutter, PHP, HTML e CSS. Também obtive conhecimentos na área de gestão de sistemas, como Windows e Windows Server.
               <br />
 
             </p>

@@ -1,17 +1,17 @@
 const Skills = () => {
   const skills = [
     {
-      title: "linguagens",
-      languages: ["html", "css", "php", "JavaScript", "Spring Boot", "Flutter"],
+      title: "Linguagens",
+      languages: ["HTML", "CSS", "PHP", "JavaScript", "Spring Boot", "Flutter"],
     },
-    { title: "Bases de dados", languages: ["Mysql"] },
+    { title: "Bases de dados", languages: ["MySQL"] },
     {
-      title: "ferramentas",
+      title: "Ferramentas",
       languages: [
         "VSCode",
         "Linux",
-        "Whindows",
-        "sweetalert2h",
+        "Windows",
+        "Sweetalert2h",
         "Git",
         "Font Awesome",
       ],
@@ -21,6 +21,7 @@ const Skills = () => {
       languages: [
         "React",
         "Discord.js",
+        "Srping",
       ],
     },
   ];
@@ -31,7 +32,7 @@ const Skills = () => {
         <div data-aos="fade-left" className=" mb-10">
           <div className=" text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
             <div className="">
-              <span className="text-[#C778DD]">#</span>Competencias
+              <span className="text-[#C778DD]">#</span>Competências
             </div>
             <div className="line w-1/3 h-px bg-[#C778DD]"></div>
           </div>

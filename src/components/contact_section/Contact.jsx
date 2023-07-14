@@ -19,7 +19,7 @@ const Contact = () => {
           {/* left */}
           <div className="left w-full md:w-1/2">
             <p className=" text-[#ABB2BF]">
-              Estou interessado em oportunidades de trabalho de curto prazo. No entanto, se tiver outra ideia, não hesite em contactar-me
+              Estou interessado em oportunidades de trabalho de curto prazo. No entanto, se tiver outra ideia, não hesite em contactar-me.
             </p>
           </div>
           {/* right */}

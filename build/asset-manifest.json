@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meu_portfolio/static/css/main.637293d0.css",
-    "main.js": "/meu_portfolio/static/js/main.83c1eb3f.js",
+    "main.css": "/meu_portfolio/static/css/main.5ba8cf30.css",
+    "main.js": "/meu_portfolio/static/js/main.a4ac534f.js",
     "static/media/man.png": "/meu_portfolio/static/media/man.1e50b3dab3f4836c4474.png",
     "static/media/david.png": "/meu_portfolio/static/media/david.31f45836da4acbf84da5.png",
     "static/media/Rectangle 22.jpg": "/meu_portfolio/static/media/Rectangle 22.6f69322432041f15b175.jpg",
@@ -9,11 +9,11 @@
     "static/media/Rectangle 22.png": "/meu_portfolio/static/media/Rectangle 22.3792a12ac8c8bdf347c6.png",
     "static/media/Rectangle 22 (1).png": "/meu_portfolio/static/media/Rectangle 22 (1).e342c01770c03be64659.png",
     "index.html": "/meu_portfolio/index.html",
-    "main.637293d0.css.map": "/meu_portfolio/static/css/main.637293d0.css.map",
-    "main.83c1eb3f.js.map": "/meu_portfolio/static/js/main.83c1eb3f.js.map"
+    "main.5ba8cf30.css.map": "/meu_portfolio/static/css/main.5ba8cf30.css.map",
+    "main.a4ac534f.js.map": "/meu_portfolio/static/js/main.a4ac534f.js.map"
   },
   "entrypoints": [
-    "static/css/main.637293d0.css",
-    "static/js/main.83c1eb3f.js"
+    "static/css/main.5ba8cf30.css",
+    "static/js/main.a4ac534f.js"
   ]
 }

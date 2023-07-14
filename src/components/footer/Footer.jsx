@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <>
       {/* line */}
-      <div className="w-full h-px bg-[#ABB2BF] mt-20 mb-8"></div>
+      <div className="w-full h-px bg-[#ABB2BF] mt-20 mb-8 "></div>
       {/* footer */}
-      <div data-aos="fade-up" className="px-5 max-w-[1560px] mx-auto">
+      <div data-aos="fade-up" className="px-5 max-w-[1560px] mx-auto ">
         {/* top */}
-        <div className="flex justify-between gap-y-10 flex-wrap">
+        <div className="flex justify-between gap-y-10 flex-wrap ">
           {/* left */}
           <div className="mx-auto md:mx-0">
             <div className=" flex items-center gap-8 mb-3 ">
@@ -26,14 +26,14 @@ const Footer = () => {
           {/* right */}
           <div className=" mx-auto md:mx-0">
             {/* title */}
-            <h2 className=" text-white text-2xl font-medium mb-3">Redes Sociais</h2>
+            <h2 className=" text-white text-2xl font-medium mb-3 ">Redes Sociais</h2>
             {/* media */}
             <div className="flex items-center gap-2">
-              <a href="#">
-                <img />
+              <a href="https://twitter.com/david_23_c">
+                <img src={require("./imgs/Twitter.png")} alt="" />
               </a>
-              <a href="">
-                <img />
+              <a href="https://www.instagram.com/david_23_c/">
+                <img src={require("./imgs/insta.png")} alt="" />
               </a>
               <a href="https://github.com/daaviinchiii">
                 <img src={require("./imgs/Github.png")} alt="" />

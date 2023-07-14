@@ -8,7 +8,7 @@ const About = () => {
                 <div className=" text-white w-2/3 font-semibold text-[32px]">
                     <div className="">
                         <span className="text-[#C778DD]">/</span>
-                        Sobre mim
+                        Sobre-mim
                     </div>
                 </div>
             </div>
@@ -17,23 +17,16 @@ const About = () => {
                 <div className="md:w-[48%] w-full">
                     {/* disc */}
                     <p className="text-[#ABB2BF] ">
-                        Ola eu chamo-me David
+                        Olá, eu chamo-me David.
                         <br />
                         <br />
-                        Sou um estudante interessado pela área de programação. Neste momento, estou à
-                        procura de oportunidades para aumentar o meu conhecimento e adquirir
-                        experiência na área de trabalho. Durante o meu percurso no curso de programador
-                        de informática, adquiri conhecimentos em: Spring Boot, JavaScript, MySQL,
-                        Flutter, PHP, HTML e CSS. Também obtive conhecimentos na área de gestão de
-                        sistemas: Windows e Windows Server.
+                        Sou um estudante interessado pela área de programação. Neste momento, estou à procura de oportunidades para aumentar o meu conhecimento e adquirir experiência na área de trabalho. Durante o meu percurso no curso de programador de informática, adquiri conhecimentos em Spring Boot, JavaScript, MySQL, Flutter, PHP, HTML e CSS. Também obtive conhecimentos na área de gestão de sistemas, como Windows e Windows Server.
                         <br />
                         <br />
-                        Sou uma pessoa motivada, empenhada, criativa e determinada a enfrentar
-                        desafios. Tenho facilidade em aprender novos conceitos e estou aberto a receber feedback construtivo para melhorar o meu desempenho. Valorizo o trabalho em
-                        equipa e tenho boas capacidades de relacionamento interpessoal.
-                        Estou determinado a trabalhar arduamente para alcançar os meus objetivos
-                        académicos e profissionais. Agradeço a oportunidade de partilhar um pouco sobre
-                        mim
+                        Sou uma pessoa motivada, empenhada, criativa e determinada a enfrentar desafios. Tenho facilidade em aprender novos conceitos e estou aberto a receber feedback construtivo para melhorar o meu desempenho. Valorizo o trabalho em equipa e tenho boas capacidades de relacionamento interpessoal.
+                        <br />
+                        <br />
+                        Estou determinado a trabalhar arduamente para alcançar os meus objetivos académicos e profissionais. Agradeço a oportunidade de partilhar um pouco sobre mim.
                     </p>
                 </div>
                 {/* right */}
