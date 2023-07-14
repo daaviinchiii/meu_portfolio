@@ -23,7 +23,7 @@ const Navbar = () => {
             to="/meu_portfolio/"
             className="text-[9px] sm:text-[16px] sm:tracking-tighter text-[#ABB2BF] my-4 list-none mx-4"
           >
-            <span className="text-[#C778DD] font-medium">#</span>Pagina-principal
+            <span className="text-[#C778DD] font-medium">#</span>Página-principal
           </NavLink>
           <NavLink
             to="/about"
